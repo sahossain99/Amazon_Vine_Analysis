@@ -1,7 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Overview of the analysis
-For this project was I picked a dataset from amazon reviews on US Digital Ebook Reviews and used Pyspark to perform ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next I used PySpark and performed analysis to determine if there was any favorable review bias from the vine members from the chosen dataset. 
+For this project I picked a dataset from amazon reviews on US Digital Ebook Reviews and used Pyspark to perform ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Next I used PySpark and performed analysis to determine if there was any favorable review bias from the vine members from the chosen dataset. 
 
 ## Results 
 ### How many Vine reviews and non-Vine reviews were there in the dataset?
@@ -24,4 +24,4 @@ For this project was I picked a dataset from amazon reviews on US Digital Ebook 
   ![](Resources/amazon3.PNG)
   
 ## Summary
-The dataset that I analyzed for this project does not have any Vine reviews(paid reviews), hence I could not determine from any metrics from the analyzed dataset what percentage of the reviews were from Vine(paid) program participants. I was able to deduce that all the 5 star reviews were from non-Vine(unpaid) customers and the percentage of 5 star reviews from them were 37.87%. As a result I cannot conclude whether any positivity bias for reviews in the Vine Program. To perform any additional analysis on my dataset, I would need data from Vine Participants who left a review for Ebook Purchases(this dataset) and from there I can accurately find the metric on percentage of 5 star reviews from Vine Participants to conclude my findings. 
+The dataset that I analyzed for this project did not have any Vine reviews(paid reviews), hence I could not determine from any metrics from the analyzed dataset what percentage of the reviews were from Vine(paid) program participants. I was able to deduce that all the 5 star reviews were from non-Vine(unpaid) customers and the percentage of 5 star reviews from them were 37.87%. As a result. I cannot conclude whether there are any positivity bias for reviews in the Vine Program from this dataset. To perform any additional analysis on my dataset, I would need data from Vine Participants who left a review and from there I can accurately find the metric on percentage of 5 star reviews for Vine Participants to conclude my findings. 
